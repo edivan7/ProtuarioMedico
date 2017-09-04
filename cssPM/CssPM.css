@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/08/2017, 13:32:52
+    Author     : vidal
+*/
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #22bee5;
+    font-weight: 300;	
+    background-color: #cbedea;
+    text-align:center;
+    margin-top: 100px;
+}	
+
+.menu{
+    display: inline-table;
+}
+.menu2{
+    display: inline-table;
+    margin-top: 10px;
+    background-color: #3ae0dd;
+}
+
+.menu ul li{
+display: inline-block;
+    height: 50px;
+
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.menu li a:hover{
+    height: 100px;
+    background-color:firebrick ;
+    color: white;
+    padding: 70px 5px 2px;
+    border-radius: 5px;
+
+}
+
+.log{ 
+    display: block;
+    width:80%; 
+    margin:auto; 
+    margin-top: 30px;
+    background: rgba(0,0,0,0.2);
+    border:aqua;
+    outline: none;
+    padding: 5%;
+    font-size: 14px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,6,0.5);
+    border-radius: 4px;
+}
+.log1{
+     display:table-column;
+    width: 500px; 
+    /*margin:auto;*/ 
+    height: 14px;
+    margin-top: 10px;
+    background: rgba(0,0,0,0.2);
+    border:aqua;
+    outline:red;
+    padding: 7px;
+    font-size: 13px;
+    color: black;
+    
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,0.3);*/
+    border: 1px solid rgba(0,0,6,0.5);
+    border-radius: 4px;
+       
+}
+
+
+input:focus{
+    background-color: white;
+    /*width: 300px;*/
+    color: red;
+
+}
+button{	background-color: white;
+        border: 0;
+        padding: 10px 15px;
+        color: rgb(155, 3, 33);
+        border-radius: 3px;
+        width: 250px;
+        cursor: pointer;
+        font-size: 18px;
+        transition-duration: 0.25s;
+        margin-top: 40px;
+}
+button:hover{
+    background-color: rgb(168, 234, 233);
+}
+
+.field{
+    border-radius: 10px;
+    display:block;
+    height:300px;
+    width: 400px;
+    margin:auto;
+    background-color: #22bee5;
+}
+
+#area  {
+    
+    position:relative;
+   align-content: center;
+    top:7%;
+    width:900px;
+    height:700px;
+  }
+#formulario  {
+    position:absolute;
+    display:ruby-base;  
+  }
+ .filmed
+  {
+      
+    width:1000px;
+    height:600px;
+  }
